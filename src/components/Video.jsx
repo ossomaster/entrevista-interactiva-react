@@ -140,6 +140,7 @@ const Video = () => {
 			<VideoProgress played={played} duration={endTime}></VideoProgress>
 			<VideoControls
 				playing={playing}
+				showSkip={!!options.length}
 				onTogglePlay={handleOnTogglePlay}
 				onBackward={handleOnBackward}
 				onSkip={handleOnSkip}
