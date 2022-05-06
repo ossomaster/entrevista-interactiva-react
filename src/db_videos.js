@@ -353,7 +353,7 @@ const arrayVideos = [
     id: 'use-effect-dependencias-cuales-importar-al-componente',
     title: 'Para identificar qué dependencias importar al componente',
     askStartTime: '1:31',
-    loopStartTime: '1:31',
+    loopStartTime: '1:32',
     loopEndTime: '1:32',
     options: [
       'suspense-lazy-retrasar-renderizado',

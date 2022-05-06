@@ -16,7 +16,7 @@ const AppState = ({ children }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   const start = () => {
-    changeVideo('use-effect-body-solo-para-peticiones-al-back');
+    changeVideo('use-effect-dependencias-cuales-importar-al-componente');
 
     dispatch({
       type: 'START',
