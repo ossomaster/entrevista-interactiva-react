@@ -89,6 +89,10 @@ const Video = () => {
 		const subtractSeconds = played - BACKWARD_SECONDS;
 		const calcSeconds = subtractSeconds < 0 ? 0 : subtractSeconds;
 		playerRef.current.seekTo(calcSeconds);
+
+		updatePlayer({
+			played: calcSeconds,
+		});
 	};
 
 	const handleOnSkip = () => {
