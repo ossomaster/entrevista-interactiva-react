@@ -16,7 +16,7 @@ const AppState = ({ children }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   const start = () => {
-    changeVideo('use-effect-dependencias-cuales-importar-al-componente');
+    changeVideo('init');
 
     dispatch({
       type: 'START',
