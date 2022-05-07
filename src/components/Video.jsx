@@ -57,7 +57,6 @@ const Video = () => {
 	});
 
 	const handleOnDuration = (duration) => {
-		console.log("handleOnDuration", duration);
 		updatePlayer({ duration: Math.ceil(duration) });
 	};
 
