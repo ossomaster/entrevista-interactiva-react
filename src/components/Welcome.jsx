@@ -10,7 +10,7 @@ const Welcome = () => {
         <a href='https://youtu.be/rncosqY881Y'>
           <img
             className='block mx-auto mb-4 rounded'
-            src='https://yt3.ggpht.com/E_msTEwJdJPmS_a1qGZvlc_dsgWwkBQx4Auv9JDX24EFJP2Q2eVt4rBYdOKcy7crlIrt_2Mwmw=s88-c-k-c0x00ffffff-no-rj'
+            src='/gentleman-programming-logo.jpg'
             alt='Gentleman Programming'
           />
         </a>
@@ -23,7 +23,7 @@ const Welcome = () => {
         </button>
         <p className='mt-3 text-sm opacity-80'>
           Hola, soy{' '}
-          <a className='font-bold underline' href='https://twitter.com/ossodev'>
+          <a className='font-bold underline' href='https://github.com/ossomaster'>
             osso
           </a>{' '}
           e hice esta pequeña app para poner en práctica mis habilidades, los
