@@ -2,6 +2,7 @@ import classNames from "classnames";
 import React, { useRef, useMemo, useEffect, useContext } from "react";
 import ReactPlayer from "react-player/file";
 import AppContext from "../contexts/AppContext";
+import { getFullPath } from "../helpers";
 import useDynamicState from "../hooks/useDynamicState";
 import VideoControls from "./VideoControls";
 import VideoOptions from "./VideoOptions";
@@ -42,7 +43,7 @@ const Video = () => {
 			loopStartTime: parseStringTimeInSeconds(video.loopStartTime),
 			loopEndTime: parseStringTimeInSeconds(video.loopEndTime),
 			options: (video?.options || []).map((videoId) => db_videos[videoId]),
-			src: `./videos/${video.id}.mp4`,
+			src: getFullPath(`/videos/${video.id}.mp4`),
 		};
 	}, [video, duration]);
 
